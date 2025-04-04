@@ -83,7 +83,7 @@ Here are some screenshots showcasing different aspects of the application:
 ### 🖥️ User Interface – Appliance Selection
 ![Appliance Selection UI](Screenshots/fig1.jpeg)
 
-### 🖥️ User Interface – Appliance Configuration
+### 🖥️ User Interface – Selection of season and cost per KWh
 ![Appliance Configuration UI](Screenshots/fig2.jpeg)
 
 ### 📈 Estimation Results – Monthly Bill
@@ -93,7 +93,7 @@ Here are some screenshots showcasing different aspects of the application:
 ![Optimized Hours Result](Screenshots/fig4.jpeg)
 ![Appliance Cost Breakdown](Screenshots/fig5.jpeg)
 
-### 🔁 Program Flow (Draw.io)
+### 🔁 Program Flow
 ![Program Flow](Screenshots/flowchart.drawio.png)
 
 ### 🧱 System Architecture
