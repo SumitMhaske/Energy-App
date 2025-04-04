@@ -77,29 +77,29 @@ Here are some screenshots showcasing different aspects of the application:
 ### 📊 Model Comparison
 ![Model Comparison](Screenshots/fig0.jpeg)
 
-#### 2. 🖥️ User Interface – Appliance Selection
+### 📌 Screenshot of UI Output
+![Screenshot UI](Screenshots/Screenshot%202024-10-07%20092601.png)
+
+### 🖥️ User Interface – Appliance Selection
 ![Appliance Selection UI](Screenshots/fig1.jpeg)
 
-#### 3. 🖥️ User Interface – Appliance Configuration
+### 🖥️ User Interface – Appliance Configuration
 ![Appliance Configuration UI](Screenshots/fig2.jpeg)
 
-#### 4. 📈 Estimation Results – Monthly Bill
+### 📈 Estimation Results – Monthly Bill
 ![Estimated Bill Results](Screenshots/fig3.jpeg)
 
-#### 5. 🧠 Optimized Usage Hours – Cost Reduction
+### 🧠 Optimized Usage Hours – Cost Reduction
 ![Optimized Hours Result](Screenshots/fig4.jpeg)
-
-#### 6. 💡 Detailed Appliance-Wise Cost
 ![Appliance Cost Breakdown](Screenshots/fig5.jpeg)
 
-#### 7. 🔁 Program Flow (Draw.io)
+### 🔁 Program Flow (Draw.io)
 ![Program Flow](Screenshots/flowchart.drawio.png)
 
-#### 8. 🧱 System Architecture
+### 🧱 System Architecture
 ![System Architecture](Screenshots/System%20Architecture.jpeg)
 
-#### 9. 📌 Screenshot of UI Output
-![Screenshot UI](Screenshots/Screenshot%202024-10-07%20092601.png)
+
 
 
 
