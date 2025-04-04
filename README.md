@@ -74,6 +74,10 @@ streamlit run XGBoost.py
 
 Here are some screenshots showcasing different aspects of the application:
 
+### 📊 Model Comparison
+![Model Comparison](Screenshots/fig0.jpeg)
+
+
 1. **fig0.jpeg** - Overview of the application UI.
 2. **fig1.jpeg** - Energy estimation interface displaying predictions.
 3. **fig2.jpeg** - Appliance selection and filtering feature.
