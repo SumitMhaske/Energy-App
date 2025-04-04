@@ -1,6 +1,4 @@
 # Energy_App
-Here’s a concise and informative **README description** you can use for your GitHub repository based on the code you've shared:
-
 ---
 
 ## 🔌 AI-Based Energy Estimation and Optimization
