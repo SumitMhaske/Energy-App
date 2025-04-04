@@ -23,14 +23,6 @@ This Streamlit-based web application estimates and optimizes electricity consump
 
 The app requires a `Normalized_Energy_Consumption.csv` file in the root directory, with the following structure:
 
-Ah, you're right — thanks for pointing that out! Here's the corrected **📁 Dataset Format** section with the `Minimum_kW` column included, properly formatted in the table:
-
----
-
-### 📁 Dataset Format
-
-The app requires a `Normalized_Energy_Consumption.csv` file in the root directory, with the following structure:
-
 | Appliance | Minimum_kW | Summer_kWh | Winter_kWh | Rainy_kWh | Standby_kWh |
 |-----------|-------------|-------------|-------------|------------|--------------|
 | Fan       | 0.05        | 0.1         | 0.15        | 0.12       | 0.01         |
@@ -52,7 +44,6 @@ The app requires a `Normalized_Energy_Consumption.csv` file in the root director
 
 ---
 
-Let me know if you want me to now embed this into the complete README for GitHub.
 
 ### 🛠 Tech Stack
 
