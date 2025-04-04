@@ -1,4 +1,5 @@
 # Energy_App
+
 ---
 
 ## 🔌 AI-Based Energy Estimation and Optimization
@@ -22,11 +23,19 @@ This Streamlit-based web application estimates and optimizes electricity consump
 
 The app requires a `Normalized_Energy_Consumption.csv` file in the root directory, with the following structure:
 
-| Appliance | Summer_kWh | Winter_kWh | Rainy_kWh | Standby_kWh |
-|-----------|-------------|-------------|------------|--------------|
-| Fan       | 0.1         | 0.15        | 0.12       | 0.01         |
-| AC        | 1.2         | 0.3         | 0.6        | 0.05         |
-| ...       | ...         | ...         | ...        | ...          |
+Appliance	Summer_kWh	Winter_kWh	Rainy_kWh	Standby_kWh
+Fan	0.1	0.15	0.12	0.01
+AC	1.2	0.3	0.6	0.05
+...	...	...	...	...
+
+📌 Column Description
+Column Name	Description
+Appliance	Name of the electrical appliance (e.g., Fan, AC, TV).
+Summer_kWh	Energy consumed per hour (in kWh) during Summer.
+Winter_kWh	Energy consumed per hour (in kWh) during Winter.
+Rainy_kWh	Energy consumed per hour (in kWh) during Rainy season.
+Standby_kWh	Energy consumed per hour (in kWh) when the appliance is in standby mode.
+⚠️ Make sure this file is located in the same folder as app.py.
 
 ### 🛠 Tech Stack
 
@@ -53,11 +62,9 @@ The app requires a `Normalized_Energy_Consumption.csv` file in the root director
 
 ```bash
 pip install -r requirements.txt
-streamlit run app.py
+streamlit run XGBoost.py
 ```
 
-> Make sure `Normalized_Energy_Consumption.csv` is in the same directory as `app.py`.
+> Make sure `Normalized_Energy_Consumption.csv` is in the same directory as `XGBoost.py`.
 
 ---
-
-Would you like a sample `requirements.txt` and `Normalized_Energy_Consumption.csv` too?
