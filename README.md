@@ -77,7 +77,7 @@ Here are some screenshots showcasing different aspects of the application:
 ### 📊 Model Comparison
 ![Model Comparison](Screenshots/fig0.jpeg)
 
-### 📌 Screenshot of UI Output
+### 📌 Performance Comparison of Machine Learning Models Using MAE, RMSE, and R² Metrics
 ![Screenshot UI](Screenshots/Screenshot%202024-10-07%20092601.png)
 
 ### 🖥️ User Interface – Appliance Selection
@@ -98,19 +98,5 @@ Here are some screenshots showcasing different aspects of the application:
 
 ### 🧱 System Architecture
 ![System Architecture](Screenshots/System%20Architecture.jpeg)
-
-
-
-
-
-1. **fig0.jpeg** - Overview of the application UI.
-2. **fig1.jpeg** - Energy estimation interface displaying predictions.
-3. **fig2.jpeg** - Appliance selection and filtering feature.
-4. **fig3.jpeg** - Optimization recommendations for usage hours.
-5. **fig4.jpeg** - Seasonal energy consumption comparison.
-6. **fig5.jpeg** - Final cost breakdown and suggestions.
-7. **flowchart.drawio.png** - System flowchart representation.
-8. **Screenshot 2024-10-07 092601.png** - Example user input and output visualization.
-9. **System Architecture.jpeg** - High-level architecture diagram of the system.
 
 ---
