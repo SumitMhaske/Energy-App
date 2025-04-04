@@ -74,29 +74,29 @@ streamlit run XGBoost.py
 
 Here are some screenshots showcasing different aspects of the application:
 
-#### 📊 Model Comparison
+#### 1. Model Comparison
 ![Model Comparison](Screenshots/fig0.jpeg)
 
-#### 📌 Performance Comparison of Machine Learning Models Using MAE, RMSE, and R² Metrics
+#### 2. Performance Comparison of Machine Learning Models Using MAE, RMSE, and R² Metrics
 ![Screenshot UI](Screenshots/Screenshot%202024-10-07%20092601.png)
 
-#### 🖥️ User Interface – Appliance Selection
+#### 3. User Interface – Appliance Selection
 ![Appliance Selection UI](Screenshots/fig1.jpeg)
 
-#### 🖥️ User Interface – Selection of season and cost per KWh
+#### 4. User Interface – Selection of season and cost per KWh
 ![Appliance Configuration UI](Screenshots/fig2.jpeg)
 
-#### 📈 Estimation Results – Monthly Bill
+#### 5. Estimation Results – Monthly Bill
 ![Estimated Bill Results](Screenshots/fig3.jpeg)
 
-#### 🧠 Optimized Usage Hours – Cost Reduction
+#### 6. Optimized Usage Hours – Cost Reduction
 ![Optimized Hours Result](Screenshots/fig4.jpeg)
 ![Appliance Cost Breakdown](Screenshots/fig5.jpeg)
 
-#### 🔁 Program Flow
+#### 7. Program Flow
 ![Program Flow](Screenshots/flowchart.drawio.png)
 
-#### 🧱 System Architecture
+#### 8. System Architecture
 ![System Architecture](Screenshots/System%20Architecture.jpeg)
 
 ---
