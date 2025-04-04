@@ -1,8 +1,6 @@
-# Energy_App
+## 🔌 AI-Based Energy Estimation and Optimization
 
 ---
-
-## 🔌 AI-Based Energy Estimation and Optimization
 
 This Streamlit-based web application estimates and optimizes electricity consumption and monthly costs for home appliances using **XGBoost regression**. By analyzing seasonal appliance usage data and power consumption, the app allows users to:
 
