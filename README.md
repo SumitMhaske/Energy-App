@@ -23,19 +23,36 @@ This Streamlit-based web application estimates and optimizes electricity consump
 
 The app requires a `Normalized_Energy_Consumption.csv` file in the root directory, with the following structure:
 
-Appliance	Summer_kWh	Winter_kWh	Rainy_kWh	Standby_kWh
-Fan	0.1	0.15	0.12	0.01
-AC	1.2	0.3	0.6	0.05
-...	...	...	...	...
+Ah, you're right — thanks for pointing that out! Here's the corrected **📁 Dataset Format** section with the `Minimum_kW` column included, properly formatted in the table:
 
-📌 Column Description
-Column Name	Description
-Appliance	Name of the electrical appliance (e.g., Fan, AC, TV).
-Summer_kWh	Energy consumed per hour (in kWh) during Summer.
-Winter_kWh	Energy consumed per hour (in kWh) during Winter.
-Rainy_kWh	Energy consumed per hour (in kWh) during Rainy season.
-Standby_kWh	Energy consumed per hour (in kWh) when the appliance is in standby mode.
-⚠️ Make sure this file is located in the same folder as app.py.
+---
+
+### 📁 Dataset Format
+
+The app requires a `Normalized_Energy_Consumption.csv` file in the root directory, with the following structure:
+
+| Appliance | Minimum_kW | Summer_kWh | Winter_kWh | Rainy_kWh | Standby_kWh |
+|-----------|-------------|-------------|-------------|------------|--------------|
+| Fan       | 0.05        | 0.1         | 0.15        | 0.12       | 0.01         |
+| AC        | 0.8         | 1.2         | 0.3         | 0.6        | 0.05         |
+| ...       | ...         | ...         | ...         | ...        | ...          |
+
+### 📌 Column Description
+
+| Column Name     | Description                                                                 |
+|-----------------|-----------------------------------------------------------------------------|
+| `Appliance`     | Name of the electrical appliance (e.g., Fan, AC, TV).                       |
+| `Minimum_kW`    | Minimum power consumption of the appliance in kilowatts.                   |
+| `Summer_kWh`    | Energy consumed per hour (in kWh) during Summer.                            |
+| `Winter_kWh`    | Energy consumed per hour (in kWh) during Winter.                            |
+| `Rainy_kWh`     | Energy consumed per hour (in kWh) during Rainy season.                      |
+| `Standby_kWh`   | Energy consumed per hour (in kWh) when the appliance is in standby mode.    |
+
+> ⚠️ Make sure this file is located in the same folder as `app.py`.
+
+---
+
+Let me know if you want me to now embed this into the complete README for GitHub.
 
 ### 🛠 Tech Stack
 
@@ -64,7 +81,5 @@ Standby_kWh	Energy consumed per hour (in kWh) when the appliance is in standby m
 pip install -r requirements.txt
 streamlit run XGBoost.py
 ```
-
-> Make sure `Normalized_Energy_Consumption.csv` is in the same directory as `XGBoost.py`.
 
 ---
