@@ -42,9 +42,6 @@ The app requires a `Normalized_Energy_Consumption.csv` file in the root director
 
 > ⚠️ Make sure this file is located in the same folder as `app.py`.
 
----
-
-
 ### 🛠 Tech Stack
 
 - 🐍 Python
