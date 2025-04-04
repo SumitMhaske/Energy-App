@@ -70,7 +70,7 @@ pip install -r requirements.txt
 streamlit run XGBoost.py
 ```
 
-## 📸 Screenshots
+### 📸 Screenshots
 
 Here are some screenshots showcasing different aspects of the application:
 
